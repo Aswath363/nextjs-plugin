@@ -1,0 +1,48 @@
+{
+  "name": "react-api-builder-marketplace",
+  "owner": {
+    "name": "Aswath L",
+    "email": "aswath.nebula@gmail.com"
+  },
+  "metadata": {
+    "description": "GLM-4.6 powered React/Next.js frontend development with API integration",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "react-api-builder",
+      "description": "🚀 GLM-4.6 powered React/Next.js frontend development with API integration. Build complete applications from API endpoints using shadcn/ui, Context7, and DeepWiki integration.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Aswath L"
+      },
+      "homepage": "https://github.com/Aswath363/nextjs-plugin#readme",
+      "repository": "https://github.com/Aswath363/nextjs-plugin",
+      "license": "MIT",
+      "keywords": [
+        "react",
+        "nextjs",
+        "api",
+        "glm-4.6",
+        "shadcn-ui",
+        "frontend",
+        "component-generation",
+        "typescript"
+      ],
+      "category": "productivity",
+      "tags": ["react", "api", "frontend", "glm-4.6"],
+      "commands": [
+        "plugins/react-api-builder/commands/build.md",
+        "plugins/react-api-builder/commands/component.md",
+        "plugins/react-api-builder/commands/research.md"
+      ],
+      "agents": [
+        "plugins/react-api-builder/agents/api-integration-specialist.md",
+        "plugins/react-api-builder/agents/shadcn-architect.md",
+        "plugins/react-api-builder/agents/nextjs-developer.md",
+        "plugins/react-api-builder/agents/context-researcher.md"
+      ],
+      "strict": false
+    }
+  ]
+}
