@@ -11,7 +11,10 @@
     {
       "name": "react-api-builder",
       "description": "🚀 GLM-4.6 powered React/Next.js frontend development with API integration. Build complete applications from API endpoints using shadcn/ui, Context7, and DeepWiki integration.",
-      "source": "./plugins/react-api-builder",
+      "source": {
+        "source": "github",
+        "repo": "Aswath363/nextjs-plugin"
+      },
       "version": "1.0.0",
       "category": "development",
       "author": {
